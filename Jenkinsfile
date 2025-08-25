@@ -24,12 +24,12 @@ pipeline {
                 echo 'Registering the metadata'
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
-                    name: "Artifact-QA-1",
+                    name: "QA-artifact-2-ak",
                     version: "1.0.1",
                     type: "docker",
-                    url: "http://localhost:2000",
-                    digest: "6f637064707039346163663237383938",
-                    label: "qa-bugbash"
+                    url: "http://localhost:222",
+                    digest: "7f637064707039346163663237383938",
+                    label: "nort,south"
                 )
             }
         }
